@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+app.get('/calculadora', (req, res) => {
+    res.render('calculadora')
+})
+
 app.listen(3000, (erro) => {
     if(erro) {
         console.log('Erro ao iniciar servidor');
