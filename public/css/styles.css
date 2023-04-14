@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Unbounded&display=swap');
+body {
+    background-color: rgb(211, 139, 5);
+    color: white;
+    font-weight: bold;
+    font-family: 'Chivo Mono';
+
+}
+
+span {
+    padding-bottom: 15px;
+}
+.container {
+    /* display: grid; */
+    display: grid;
+    place-items: center;
+    row-gap: 20px;
+}
+
+
+
+.project-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 18, 18);
+    width: 40em;
+    padding: 5px 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(19, 19, 19, 0.76);;
+    /* padding-top: 30px; */
+
+}
+
+.title, .link, .image {
+    text-align: center;
+    font-family: 'Chivo Mono';
+}
+
+.image {
+    width: 60vh;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.link {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
+.link:hover {
+    color: rgb(44, 3, 121);
+}
+
+.icon-link {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid rgb(158, 104, 5);;
+    height: 45vh;
+    margin: 10px;
+    margin-right: 50vh;
+    margin-left: 50vh;
+}
+.info h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.foto-perfil {
+    width: 25vh;
+    border-radius: 50%;
+}
+.network {
+    border: 2px solid white;
+}
