@@ -33,7 +33,7 @@ app.get('/prova', (req, res) => {
     res.render('prova')
 })
 app.get('/agenda', (req, res) => {
-    res.render('coffemenu')
+    res.render('agenda')
 })
 
 
