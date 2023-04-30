@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Unbounded&display=swap');
 body {
-    background-color: rgb(5, 211, 194);
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-family: 'Chivo Mono';
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(28,175,151,1) 21%, rgba(0,212,255,1) 100%);
+    color: #FFF;
+    /* font-weight: bold; */
+    font-family: 'Helvetica';
 
 }
 
@@ -47,12 +48,13 @@ span {
 
 .link {
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: #FFF;
     padding-bottom: 10px;
 }
 
 .link:hover {
-    color: rgb(44, 3, 121);
+    color: rgb(10, 10, 10);
 }
 
 .icon-link {

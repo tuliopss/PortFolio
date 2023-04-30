@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const port = 3000;
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 app.set('views', path.join(__dirname, '/views'));
@@ -36,12 +37,16 @@ app.get('/agenda', (req, res) => {
     res.render('agenda')
 })
 
+app.get('/secretword', (req, res) => {
+    res.render('secretword')
+})
 
-app.listen(3000, (erro) => {
+
+app.listen(port, (erro) => {
     if(erro) {
         console.log('Erro ao iniciar servidor');
     } else {
-        console.log('Servidor iniciado');
+        console.log('Servidor iniciado na porta ' + port);
     }
  })
 
